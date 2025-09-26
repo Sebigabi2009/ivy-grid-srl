@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Despre noi</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Lato", sans-serif;
+  color: green;   /* tot textul verde */
+}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+  font-size: 16px;   /* dimensiune standard pentru text */
+}
+
+/* Dimensiuni titluri */
+
+
+h1 {
+  font-size: 40px;   /* foarte mare pentru titluri principale */
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+h4, h5, h6 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Dimensiune pentru paragrafe */
+p {
+  font-size: 20px;   /* mai mare decât implicit */
+  line-height:1.0;  /* spațiu mai aerisit între rânduri */
+}
+
+
+   /* valoare implicită */
+
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url('/w3images/parallax1.jpg');
+  min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+  background-image: url("/w3images/parallax2.jpg");
+  min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+  background-image: url("/w3images/parallax3.jpg");
+  min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> DESPRE NOI</a>
+    
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <i class="fa fa-search"></i>
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">DESPRE NOI</a>
+    
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <img src="poza1.jpg" style="width:100%; height:auto;">
+  <br>
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <h1>Viitorul energiei verde</h1>
+  </div>
+</div>
+
+    <br>
+    <br>
+    <br>
+    <h1></h1>
+    
+    
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">DESPRE NOI <br></h3>
+ <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <img src="poza6.jpg" style="width:100%; height:auto;">
+  <p class="w3-center"><em>Lasa dispecerizarea in seama noastra!</em></p>
+   <br>
+    <br>
+    <br>
+  <h1 class="w3-center">De ce sa acceptati o colaborare cu noi?</h1> <br>
+    <br>
+    <br>
+  <P>• Existenta unui Centru de Dispecerat specializat in productie;</P>
+
+<p>• Personal specializat si acreditat;</P>
+
+<p>• Experienta de 13 ani in dispecerizare, cu un portofoliu
+
+diversificat de clienti mari, acoperind diferite tehnologii/surse de producere;</P>
+
+<p>• Colaborare deosebita cu dispeceratele ierarhice superioare (teritoriale, Dispeceratul energetic central);</P>
+
+<p>• Puteri dispecerizate pana in prezent de peste 1500 MW;</P>
+
+<p>• Logistica specifica de dispecerizare, de inalta performanta (dispeceratul de productie fiind printre cele mai moderne din tara).</P>
+  <br>
+    <br>
+    <br>
+   <h1 class="w3-center">Calitatea produselor şi serviciilor</h1>
+   <br>
+    <br>
+    <br>
+    <p>•Fiecare interacțiune este atent concepută pentru a oferi tranziții fluide, feedback intuitiv și o experiență de navigare fără probleme pe toate dispozitivele.</p>
+
+<p>• Profesionalismul specialiştilor noştri precum şi calitatea şi diversitatea produselor şi serviciilor oferite au adus în portofoliul firmei un număr mare de clienţi, printre aceştia numărându-se cele mai importante societăţi comerciale din......</p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <p><b><i class="fa fa-user w3-margin-right"></i>Parcuri fotovoltaice</b></p><br>
+      <img src="poza2.jpg" class="w3-round w3-image  " alt="Photo of Me" width="500" height="333"><br>
+    <br>
+    <br>
+       <img src="poza3.jpg" class="w3-round w3-image  " alt="Photo of Me" width="500" height="333"> <br>
+    <br>
+    <br>
+       <img src="poza5.jpg" class="w3-round w3-image  " alt="Photo of Me" width="500" height="333"><br>
+    <br>
+    <br>
+        <img src="poza4.jpg" class="w3-round w3-image  " alt="Photo of Me" width="500" height="333">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+      <h3>Instalații fotovoltaice</h3>
+
+      <p> Ivy Grid vă stă la dispoziție pentru a găsi cea mai eficientă soluție adaptată nevoilor de la consultanta, studiu de soluție, proiectarea soluției tehnice, furnizare soluție la cheie, monitorizare si operare.</p>
+      <br>
+      <h3>SISTEM OFF-GRID</h3>
+
+      <p> Sistemul off-grid este un sistem izolat, independent şi autonom. Acesta se instalează cu precădere în următoarele situații:
+
+în locații unde nu există altă sursă de energie electrică;
+în cazul în care costurile de racordare la reţeaua electrică sunt mari.
+Pentru cazurile în care, datorită conditiilor meteo nefavorabile (ceata, nori, etc) panourile fotovoltaice nu pot asigura incarcarea corespunzatoare a bateriilor şi menţinerea tensiunii de alimentare pentru consumatori, se recomandă utilizarea unui generator electric de back-up.</p>
+      <h3>SISTEMUL ON- GRID</h3>
+      <p>Este un sistem interconectat cu rețeaua electrică de distribuție. Acesta se instalează cu precădere în următoarele situații:
+
+în locațiile în care există racord la rețeaua electrică de distribuție şi se dorește o reducere a consumului de energie electrică facturabilă sau acoperirea creșterii de putere cerută de receptori electrici noi instalaţi, cu funcţionare pe timpul zilei.
+<p>Avantaje:</p>
+<p>Nu necesita baterii de acumulatori</p>
+<p>Se folosește integral producția de energie generata de panourile fotovoltaice</p>
+      <h3>STOCARE - Energie electrică fără întrerupere</h3>
+      <p>Bateriile, şi sistemele de convertire a energiei electrice în căldură şi în gaze promovează independența de alimentare electrică, eliberează reţeaua electrică şi încorporează mobilitatea şi sectoarele de termoficare în protejarea climatului, şi toate acestea se bazează pe controlere</p>
+
+
+    </div>
+  </div>
+  
+
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <h3 class="w3-center">PENTRU A NE CONTACTA</h3>
+  <p class="w3-center"><em>Mai multe obtiuni!</em></p>
+
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m4 w3-container">
+
+     
+    </div>
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Craiova, Calea Severinului 105, etaj 2, jud. Dolj<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>Telefon:0214123650<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: sales@ivygrid.com<br>
+      </div>
+      <p>Mai jos puteti trimite un mesaj</p>
+      <form action="/action_page.php" target="_blank">
+        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+          </div>
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+          </div>
+        </div>
+        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+        <button class="w3-button w3-black w3-right w3-section" type="submit">
+          <i class="fa fa-paper-plane"></i> TRIMITE MESAJ
+        </button>
+      </form>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1000000.0!2d23.825320!3d44.309804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zM0jCsDU0JzM4LjUiTiAyM8KwMzknMzkuNSJF!5e0!3m2!1sen!2sus!4v1621267645438!5m2!1sen!2sus" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy">
+</iframe>
+      
+    </div>
+  </div>
+</div>
+
+ 
+<script>
+
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
